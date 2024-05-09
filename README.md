@@ -20,7 +20,7 @@ Before you begin, ensure you have the following installed:
 
 2. Navigate to the project directory:
    
-   cd erc20-token-deployment
+   cd token-contract
 
    
 3. Install dependencies:
