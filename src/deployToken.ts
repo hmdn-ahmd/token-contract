@@ -1,4 +1,5 @@
 import { ethers } from 'ethers';
+require('dotenv').config();
 
 //function to deploy token 
 
@@ -9,7 +10,7 @@ async function deployToken(
     decimals: number
 ) {
     //connecting to Etherium Network(infura)
-    const provider = new ethers.providers.JsonRpcProvider('https://mainnet.infura.io/v3/22148e2c72184517b279125db1ec6319')
+    const provider = new ethers.providers.JsonRpcProvider(process.env.TESTNET_ID)
     const signer =provider.getSigner();
 
     // fetching balance of the user
