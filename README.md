@@ -26,7 +26,10 @@ Before you begin, ensure you have the following installed:
 3. Install dependencies:
    
    npm install
-   
+
+4. Set env.variables
+
+   for Testnet 
 
 ### Configuration
 
